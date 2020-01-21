@@ -1,0 +1,47 @@
+There are also Git GUI clients that work well on Windows platforms which performs all the operations that is performed by git.
+1. Sourcetree
+
+  It’s a fully featured GUI that makes your Git projects efficient and easier. It can support large Git files and visualize it 
+with detailed branching diagrams, making it easy for you and your team members to see the progress.
+
+The local commit search allows you to find file changes, commits, and branches while the remote repo manager lets you search and 
+clone remote repositories within Sourcetree. You can also get clear and clean commits with the interactive rebase tool.
+
+2.GitHub
+
+GitHub Desktop is a free and open source Git GUI client. It has an intuitive interface that allows you to manage code without 
+you needing to type commands. You can make new or add local repositories and perform Git operations with ease.
+
+Creating branches and switching to existing ones isn’t a hassle, so is merging code with the master branch. Furthermore, you 
+can track your changes with GitHub Desktop.
+
+3. Tortoise Git
+
+It supports regular tasks like commit, creating branches and tags, showing logs, and so on. The tool is straightforward to use 
+as commands are accessible straight from Windows Explorer. The dialogs are descriptive, and you’re able to move files by dragging them.
+
+There are tools such as TortoiseGitMerge that help resolve conflicts and lets you see the changes you made to your files. It has a 
+spell checker to log messages and auto-completion for keywords and paths.
+
+
+
+
+
+
+Explaination of git push origin master
+
+Git Origin Master
+The term "git origin master" is used in the context of a remote repository. It is used to deal with the remote repository. 
+The term origin comes from where repository original situated and master stands for the main branch. Let's understand both of 
+these terms in detail.
+Git Master
+Master is a naming convention for Git branch. It's a default branch of Git. After cloning a project from a remote server, 
+the resulting local repository contains only a single local branch. This branch is called a "master" branch. It means that "master" 
+is a repository's "default" branch.
+
+n Git, The term origin is referred to the remote repository where you want to publish your commits. The default remote repository is 
+called origin, although you can work with several remotes having a different name at the same time. It is said as an alias of the system.
+
+Git has two types of branches called local and remote. To use git pull and git push, you have to tell your local branch that on 
+which branch is going to operate. So, the term origin master is used to deal with a remote repository and master branch. 
+The term push origin master is used to push the changes to the remote repository. 
