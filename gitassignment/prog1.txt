@@ -1,0 +1,33 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		string n;
+		Console.WriteLine("Enter the size of an array");
+		n= Console.ReadLine();
+		int res,i,j;
+		res = Convert.ToInt32(n);
+		Console.WriteLine("Size is"+res);
+		int[] array=new int[res];
+		Console.WriteLine("Enter the numbers");
+		for(i=0;i<res;i++)
+		{
+			array[i]=Convert.ToInt32(Console.ReadLine());
+		}
+		for(j=0;j<res;j++)
+		{
+			if(j%2==0)
+				array[j]--;
+			else
+				array[j]++;
+			
+		}
+		Console.WriteLine("After inc and dec");
+		for(i=0;i<res;i++) 
+        { 
+            Console.WriteLine(array[i]); 
+        } 
+	}
+}
